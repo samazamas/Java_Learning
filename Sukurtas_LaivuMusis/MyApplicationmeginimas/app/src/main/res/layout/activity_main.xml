@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ekrano"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <LinearLayout
+        android:id="@+id/linearFilas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:orientation="vertical"
+        android:weightSum="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="17"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="17"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:onClick="Paspaudimas"
+                android:text=" " />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="17"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="17"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="17"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:onClick="Paspaudimas"
+                android:text=" " />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="17"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="17"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="17"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="17"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearFila1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="17"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/buttongame"
+                android:text=" "
+                android:onClick="Paspaudimas"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="42"
+                android:id="@+id/padarytasuviu"
+                android:textAlignment="center"
+                android:text="Padaryta suviu:"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="35"
+                android:id="@+id/suviuskaicius"
+                android:textAlignment="center"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                android:layout_gravity="center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"></View>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
